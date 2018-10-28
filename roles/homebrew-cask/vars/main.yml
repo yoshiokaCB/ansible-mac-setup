@@ -1,0 +1,4 @@
+---
+
+packages:
+  - { name: google-chrome, state: present }

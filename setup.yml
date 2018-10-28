@@ -1,0 +1,34 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  become: no
+  roles:
+    - homebrew
+    - homebrew-cask
+  # vars:
+  #   homebrew_repositories:
+  #   homebrew_packages:
+  #    - readline
+  #    - openssl
+  #    - ansible
+  #    - git
+  #    - vim
+  #    - mysql
+  #    - postgresql
+  #    - imagemagick
+  #    - awscli
+  #
+  #   homebrew_cask_repositories:
+  #     - caskroom/versions
+  #   homebrew_cask_packages:
+  #    - firefox-ja
+  #    - google-chrome
+  #    - java6
+  #    - atom
+  #    - vagrant
+  #    - virtualbox
+  #    - sourcetree
+  #    - sequel-pro
+  #    - mi
+  #    - skype
