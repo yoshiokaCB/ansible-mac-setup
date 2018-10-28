@@ -2,3 +2,14 @@
 
 packages:
   - { name: google-chrome, state: present }
+  - { name: firefox, state: present }
+  - { name: slack, state: present }
+  - { name: skype, state: present }
+  - { name: iterm2, state: present }
+  - { name: sourcetree, state: present }
+  - { name: virtualbox, state: present }
+  - { name: vagrant, state: present }
+  - { name: mi, state: present }
+  - { name: atom, state: present }
+  - { name: sequel-pro, state: present }
+  - { name: visual-studio-code, state: present }

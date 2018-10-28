@@ -9,6 +9,13 @@ taps:
   - homebrew/binary
 
 packages:
+  - { name: readline, state: present }
+  - { name: openssl, state: present }
   - { name: ansible, state: present }
   - { name: awscli, state: present }
   - { name: git, state: present }
+  - { name: yarn, state: present }
+  - { name: nkf, state: present }
+  - { name: mysql, state: present }
+  - { name: postgresql, state: present }
+  - { name: imagemagick, state: present }
