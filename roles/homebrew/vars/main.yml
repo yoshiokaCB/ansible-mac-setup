@@ -19,3 +19,4 @@ packages:
   - { name: mysql, state: present }
   - { name: postgresql, state: present }
   - { name: imagemagick, state: present }
+  - { name: mutagen-io/mutagen/mutagen, state: present }

@@ -13,3 +13,4 @@ packages:
   - { name: atom, state: present }
   - { name: sequel-pro, state: present }
   - { name: visual-studio-code, state: present }
+  - { name: docker, state: present }
